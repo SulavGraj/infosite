@@ -1,0 +1,61 @@
+.services{
+    background-color: #F0EBE3;
+    p{
+        color: #7D9D9C;        
+        font-family: 'Ubuntu';
+        font-size: 20px;
+        text-align: justify;
+    }
+    .service-content{
+        margin-bottom: 70px;
+        .service-title{
+            font-family: 'Poppins', Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #576F72;
+        }
+    }
+    .service-packages{
+        h2{
+            font-family: 'Poppins', Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #576F72;
+        }
+        .card{
+            // .card-header{
+            //     background-color: #314E52;
+            // }
+            color: #576F72;
+            h4{
+                color: #E4DCCF;
+            }
+            .card-body{
+                p{
+                    font-size: 18px;
+                }
+                h4{
+                    color: #576F72;
+                    margin-bottom: 20px;
+                }
+                li{
+                    color: #576F72;
+                    font-size: 17px;
+                }
+                .btn{
+                    color: #F0EBE3;
+                    background: #576F72;
+                    border: 2px solid #576F72;
+                }
+                .btn:hover{
+                    background: none;
+                    color: #576F72;
+                }
+            }
+        }
+    }
+}

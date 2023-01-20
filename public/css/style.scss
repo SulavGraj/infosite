@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Wallpoet&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lavishly+Yours&family=Sacramento&family=Tangerine:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  .section-title {
+    font-family: "Sacramento", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #777;
+    span {
+      font-family: "Sacramento", sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      color: crimson;
+    }
+  }
+  .section-title::before {
+    position: absolute;
+    content: "";
+    width: 75px;
+    height: 4px;
+    top: 155px;
+    left: 9%;
+    border-radius: 6px;
+    background-color: crimson;
+  }
+  .section-title::after {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 4px;
+    top: 170px;
+    left: 9%;
+    border-radius: 6px;
+    background-color: crimson;
+  }
+}
+
+.footer {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  .footer-title {
+    color: #eddfb3;
+    font-family: "Wallpoet", sans-serif;
+    font-weight: 400;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .footer-title::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    bottom: -20px;
+    left: 30%;
+    background-color: #eddfb3;
+  }
+  .footer-title::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    bottom: -30px;
+    left: 40%;
+    background-color: #eddfb3;
+  }
+  p {
+    margin-top: 10px;
+    color: #eddfb3;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+}
+
+@import "./scss/nav";
+@import "./scss/banner";
+@import "./scss/home";
+@import "./scss/about";
+@import "./scss/menu";
+@import "./scss/services";
+@import './scss/contact';
+@import './scss/order';
+@import "./scss/menu1";
+@import "./scss/client";
+@import "./scss/events";
+@import "./scss/gallery";
+@import "./scss/review";
